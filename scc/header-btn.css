@@ -5,8 +5,7 @@
     left: 126px;
     top: 21px;
     border-radius: 12px;
-    background-color: red;
-    /*background-color: #3E66FB;*/
+    background-color: #3E66FB;
     color: white;
     cursor: url('../img/cursor.svg'),auto;
 }
