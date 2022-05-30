@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="scc/reset.css">
+    <link rel="stylesheet" href="scc/style.css">
+    <link rel="stylesheet" href="scc/header.css">
+    <link rel="stylesheet" href="scc/header-btn.css">
+    <link rel="stylesheet" href="scc/first-page.css">
+    <link rel="stylesheet" href="scc/variables-main.css">
+    <link rel="stylesheet" href="scc/next-btn.css">
+    <link rel="stylesheet" href="scc/second-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header header-border">
+    <div class="header-btn-container center-all">
+        <button id="header-btn" class="header__my-btn">
+            <span class="my-btn-bcm">BCM</span><span class="my-btn-next">&nbsp next</span>
+        </button>
+    </div>
+    <div class="header__settings-box">
+            <div class="settings center-all border-left">
+                <img class="settings-img" src="/img/header/setting.svg" alt="settings">
+            </div>
+            <div class="notification center-all border-left">
+                <img class="notification1-img" src="/img/header/notification.svg" alt="ring">
+                <img class="notification2-img" src="/img/header/ellipse.svg" alt="ring">
+            </div>
+            <div class="manager-info center-all border-left">
+                <div class="">
+                    <img class="center-all__profile-img" src="/img/header/profile.svg" alt="ring" style="display: block">
+                </div>
+                <div class="setting-box__info">
+                    <p class="setting-box__info-title">Amara Kyle</p>
+                    <p class="setting-box__info-position">BCM Manager</p>
+                </div>
+                <div class="">
+                    <img class="img-arrow" src="/img/header/arrow.svg" alt="ring">
+                </div>
+            </div>
+    </div>
+</header>
+<div class="main-wrapper">
+    <div id="first-page" class="first-page show">
+        <div class="first-page__top-title">Choose an option below to continue</div>
+        <div class="first-page__main-title">
+            How would you like us to
+            help you today?
+        </div>
+        <div class="first-page__cards-block">
+            <div class="first-page__card">
+                <div class="first-page__card-img">
+                    <img src="img/content/crisis.svg" alt="">
+                </div>
+                <div class="first-page__card-content">
+                    <div>
+                        <div class="card-content__title">IAM IN CRISIS!</div>
+                    </div>
+                    <div class="card-content__block">
+                        <div class="card-content__text" style="margin-left: 24px">
+                            Help me with a step-by step checklist of recovery steps
+                        </div>
+                        <div class="card-content__bookmark" >
+                            <img class="card-content__picker" src="img/content/picker.svg" alt="">
+                            <img class="card-content__picker-blue" src="img/content/picker-blue.svg" alt="">
+                            <img class="card-content__vector" src="img/content/vector.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="first-page__card">
+                <div class="first-page__card-img">
+                    <img src="img/content/no-crisis.svg" alt="">
+                </div>
+                <div class="first-page__card-content">
+                    <div>
+                        <div class="card-content__title blue">BE CRISIS READY</div>
+                    </div>
+                    <div class="card-content__block">
+                        <div class="card-content__text" style="margin-left: 24px">
+                            Help me with a step-by step checklist of recovery steps
+                        </div>
+                        <div class="card-content__bookmark" >
+                            <img class="card-content__picker" src="img/content/picker.svg" alt="">
+                            <img class="card-content__picker-blue" src="img/content/picker-blue.svg" alt="">
+                            <img class="card-content__vector" src="img/content/vector.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="my-btn-next" class="btn-next">
+            <span>Next</span>
+            <img src="img/arrow-right.svg" alt="">
+        </button>
+    </div>
+    <div id="second-page" class="second-page hide">
+        <div class="aside-menu-block">
+            <div id="lines" class="lines">
+                <div class="lines-attr horizontal">
+                    <img src="img/second-page/lines/horizontal.svg" alt="">
+                </div>
+                <div class="lines-attr vertical">
+                    <img src="img/second-page/lines/vertical.svg" alt="">
+                </div>
+                <div class="lines-attr radius">
+                    <img src="img/second-page/lines/radius.svg" alt="">
+                </div>
+            </div>
+            <div id="aside-menu"  class="aside-menu">
+                <div class="aside-menu__block hint">Envision, define and document the goals of your BCM program</div>
+                <div class="aside-menu__block policy">
+                    <div class="aside-menu__block-title">
+                        <span>Policy</span>
+                        <img src="img/second-page/lines/green-circle.svg" alt="">
+                    </div>
+                    <div class="aside-menu__block-content green">Approved</div>
+                </div>
+                <div class="aside-menu__block procedures">
+                    <div class="aside-menu__block-title">
+                        <span>Procedures</span>
+                        <img src="img/second-page/lines/blue-circle.svg" alt="">
+                    </div>
+                    <div class="aside-menu__block-content blue">Awaiting Approval</div>
+                </div>
+                <div class="aside-menu__block playbook">
+                    <div class="aside-menu__block-title">
+                        <span>Playbook</span>
+                        <img src="img/second-page/lines/blue-circle.svg" alt="">
+                    </div>
+                    <div class="aside-menu__block-content light-blue">Not Approved</div>
+                </div>
+                <div class="aside-menu__block appetite">
+                    <div class="aside-menu__block-title">
+                        <span>Appetite</span>
+                        <img src="img/second-page/lines/blue-circle.svg" alt="">
+                    </div>
+                    <div class="aside-menu__block-content light-blue">Not Approved</div>
+                </div>
+            </div>
+        </div>
+        <div id="top-left" class="top-left">
+            <div class="top-left-1">
+                <div class="top-left-rel">
+                    <img class="top-left-1-1" src="img/second-page/circles/big-blue.svg" alt="">
+                    <img class="top-left-1-1-2" src="img/second-page/circles/group-top-left.svg" alt="">
+                </div>
+            </div>
+            <div class="top-left-2">
+                <img class="top-left-2-2" src="img/second-page/circles/green.svg" alt="">
+                <div class="top-left-2-21">
+                    <img class="top-left-2-22" src="img/second-page/circles/circle-colored.svg" alt="">
+                    <img class="top-left-2-23" src="img/second-page/circles/circle-uncolored.svg" alt="">
+                    <span class="top-left-2-24 circle-percent">35%</span>
+                </div>
+            </div>
+            <div class="top-left-3">
+                <img class="top-left-1-1" src="img/second-page/circles/small-top.svg" alt="">
+            </div>
+            <div class="top-left-4">
+                <img class="top-left-3-3" src="img/second-page/circles/small-base.svg" alt="">
+                <div class="top-left-5">
+                    <img class="tl-5-5" src="img/second-page/circles/icons/icon-manual.svg" alt="">
+                </div>
+            </div>
+            <div class="top-left-5"></div>
+        </div>
+        <div class="top-right">
+            <div class="top-right-1">
+                <div class="top-right-rel">
+                    <img class="top-right-1-1" src="img/second-page/circles/big-blue.svg" alt="">
+                    <img class="top-right-1-1-2" src="img/second-page/circles/group-top-right.svg" alt="">
+                </div>
+
+                <!--            <div class="top-right-1-1-1">-->
+                <!--            <img class="top-right-1-1-1" src="img/second-page/circles/group-top-right.svg" alt="">-->
+            </div>
+            <div class="top-right-2">
+                <img class="top-right-2-2" src="img/second-page/circles/rose.svg" alt="">
+            </div>
+            <div class="top-right-3">
+                <img class="top-right-1-1" src="img/second-page/circles/small-top.svg" alt="">
+            </div>
+            <div class="top-right-4">
+                <img class="top-right-3-3" src="img/second-page/circles/small-base.svg" alt="">
+                <div class="top-right-5">
+                    <img class="top-right-5-5" src="img/second-page/circles/icons/icon-settings.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-left">
+            <div class="bottom-left-1">
+                <div class="bottom-left-rel">
+                    <img class="bottom-left-1-1" src="img/second-page/circles/big-blue.svg" alt="">
+                    <img class="bottom-left-1-1-2" src="img/second-page/circles/group-bottom-left.svg" alt="">
+                </div>
+
+                <!--            <img class="bottom-left" src="img/second-page/circles/big-blue.svg" alt="">-->
+                <!--            <img class="top-left-1-1-1" src="img/second-page/circles/rose.svg" alt="">-->
+            </div>
+            <div class="bottom-left-2">
+                <img class="bottom-left-2-2" src="img/second-page/circles/rose.svg" alt="">
+            </div>
+            <div class="bottom-left-3">
+                <img class="bottom-left-1-1" src="img/second-page/circles/small-top.svg" alt="">
+            </div>
+            <div class="bottom-left-4">
+                <img class="bottom-left-3-3" src="img/second-page/circles/small-base.svg" alt="">
+                <div class="bottom-left-5">
+                    <img class="tl-5-5" src="img/second-page/circles/icons/icon-handshake.svg" alt="">
+                </div>
+            </div>
+            <div class="bottom-left-5"></div>
+        </div>
+        <div class="bottom-right">
+            <div class="bottom-right-1">
+                <div class="bottom-right-rel">
+                    <img class="bottom-right-1-1" src="img/second-page/circles/big-blue.svg" alt="">
+                    <img class="bottom-right-1-1-2" src="img/second-page/circles/group-bottom-right.svg" alt="">
+                </div>
+
+
+                <!--            <img class="bottom-right-1-1" src="img/second-page/circles/big-blue.svg" alt="">-->
+                <!--            <img class="top-left-1-1-1" src="img/second-page/circles/rose.svg" alt="">-->
+            </div>
+            <div class="bottom-right-2">
+                <img class="bottom-right-2-2" src="img/second-page/circles/rose.svg" alt="">
+            </div>
+            <div class="bottom-right-3">
+                <img class="bottom-right-1-1" src="img/second-page/circles/small-top.svg" alt="">
+                <!--            <img class="bl-3-3" src="img/second-page/empty-bl.svg" alt="">-->
+            </div>
+            <div class="bottom-right-4">
+                <img class="bottom-right-3-3" src="img/second-page/circles/small-base.svg" alt="">
+                <div class="bottom-right-5">
+                    <img class="tl-5-5" src="img/second-page/circles/icons/icon-finger.svg" alt="">
+                </div>
+            </div>
+            <div class="bottom-right-5"></div>
+        </div>
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>

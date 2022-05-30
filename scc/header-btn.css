@@ -1,0 +1,27 @@
+.header__my-btn {
+    border: 0;
+    height: 44px;
+    width: 96px;
+    left: 126px;
+    top: 21px;
+    border-radius: 12px;
+    background-color: #3E66FB;
+    color: white;
+    cursor: url('../img/cursor.svg'),auto;
+}
+.my-btn-bcm {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: center;
+}
+.my-btn-next {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0;
+    text-align: center;
+}

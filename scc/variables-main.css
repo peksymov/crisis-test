@@ -1,0 +1,17 @@
+.border-left {
+    border-left: 2px #F0F0F1 solid;
+}
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green {
+    color: #3CC13B;
+}
+.blue {
+    color: #3E66FB;
+}
+.light-blue {
+    color: #afc1fe;
+}

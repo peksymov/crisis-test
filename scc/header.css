@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 86px;
+}
+.header-border {
+    border-bottom: 2px #F0F0F1 solid;
+}
+.header-btn-container {
+    margin-left: 126px;
+}
+.header__settings-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.settings {
+    position: relative;
+    cursor: url('../img/cursor.svg'),auto;
+}
+.settings-img {
+    margin-left: 25px;
+    margin-right: 25px;
+    filter: opacity(0.5);
+    transition: all 0.1s ease-out;
+}
+.settings:hover .settings-img{
+    filter: opacity(1);
+    transition: all 0.1s ease-out;
+}
+
+.notification {
+    position: relative;
+    cursor: url('../img/cursor.svg'),auto;
+}
+.notification1-img {
+    position: relative;
+    z-index: 1;
+    margin-right: 16px;
+    margin-left: 26px;
+    filter: opacity(0.5);
+    transition: all 0.2s ease-out;
+}
+.notification:hover .notification1-img{
+    filter: opacity(1);
+    transition: all 0.2s ease-out;
+}
+.notification2-img {
+    position: relative;
+    z-index: 2;
+    bottom: 10px;
+    right: 30px;
+    filter: opacity(1);
+}
+.notification2-img:hover {}
+
+.manager-info {
+    display: flex;
+    padding-left: 40px;
+    margin-right: 127px;
+    cursor: url('../img/cursor.svg'),auto;
+}
+.setting-box__info {
+    margin-left: 8px;
+    margin-right: 47px;
+}
+.setting-box__info-title {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.setting-box__info-position {
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3E66FB;
+}
